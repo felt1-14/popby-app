@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <link href="main.css" type="text/css" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+        <script src="jscript.js" type="text/javascript"></script>
+        <title>Popby</title>
+    </head>
+    <body onload="LSload()">
+        <div id="header">
+            <img src="images/PopByLogo.png" alt="PopBy Logo" width="80%"/>
+        </div>
+        <div id="contactlist">
+            <table id="output">
+            </table>
+        </div>
+        
+        <img src="images/AddFriendButton.png" id="addFriendBtn" alt="Add Friend" width="20%" onclick="displayInputDiv()">
+        
+        <div id="inputDiv">
+            <p>New Friend</p>
+            <input type="text" id="inputName" maxlength="12" placeholder="First name...">
+            <input type="date" id="inputDate">
+            <button id="btnSave" onclick="newEntry()">Save</button>
+        </div>
+    </body>
+</html>

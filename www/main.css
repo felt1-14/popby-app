@@ -1,0 +1,88 @@
+body {
+    background-color:#29AAE1;
+    text-align:center;
+    color:white;
+    font-size: calc(10px + 2vw);
+    font-family: 'Comfortaa', cursive;
+}
+
+#header img {
+    max-width: 800px;
+    margin: calc(10px + 1vw);
+}
+
+#addFriendBtn {
+    max-width: 180px;
+    margin: calc(10px + 1vw);
+}
+
+#inputDiv {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 200px;
+    width: 55%;
+    overflow: auto;
+    background-color:#29AAE1;
+    padding: 10px;
+}
+
+table {
+    margin-left:auto; 
+    margin-right:auto;
+    margin-bottom: 50px;
+}
+.nameCell {
+    text-align: left;
+    font-weight: bold;
+    padding-right: 20px;
+}
+
+.passedCell {
+    text-align: right;
+    padding-left: 20px;
+}
+
+input {
+    font-size: calc(10px + 2vw);
+    font-family: 'Comfortaa', cursive;
+    width: 48%;
+    min-width: 200px;
+    margin-bottom: 10px;
+}
+
+#btnSave {
+    display: block;
+    font-size: calc(10px + 2vw);
+    font-family: 'Comfortaa', cursive;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left:auto; 
+    margin-right:auto;
+    border: solid 0.2vw white;
+    color:white;
+    background-color: #29AAE1;
+    vertical-align: middle;
+}
+
+.btnVisit, .btnDel {
+    font-size: calc(10px + 2vw);
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: solid 1px white;
+    color: black;
+    margin: 5px;
+}
+
+.btnVisit {
+    background-color: lawngreen;
+}
+
+.btnDel {
+    background-color: red;
+}
